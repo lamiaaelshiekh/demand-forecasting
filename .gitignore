@@ -1,0 +1,46 @@
+# بيانات كبيرة - لا ترفعيها على GitHub
+*.csv
+*.xlsx
+*.xls
+*.pkl  # ولكن استثني ملفات saved_models/
+
+# ملفات بايثون مؤقتة
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ملفات Jupyter Notebook
+.ipynb_checkpoints/
+
+# ملفات نظام
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ملفات بيئة Python
+.env
+venv/
+env/
+*.env
+
+# بيانات Anaconda
+.conda/
+conda-env/
+
+# ملفات Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ملفات مؤقتة
+temp_*
+*.tmp
+*.log
+
+# ==================================
+# استثناءات - هذه الملفات نريد رفعها:
+!saved_models/
+!saved_models/*.pkl
